@@ -1,6 +1,6 @@
 package leetcodeeasy
 
-func isValidParentheses(s string) bool {
+func IsValidParentheses(s string) bool {
 	stack := make([]rune, 0, len(s))
 	brackets := map[rune]rune{
 		')': '(',

@@ -1,6 +1,6 @@
 package leetcodeeasy
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	hashTable := map[int]int{}
 
 	for index, value := range nums {

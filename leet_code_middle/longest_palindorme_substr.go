@@ -11,7 +11,7 @@ func isPalindrome(str string, left, right int) bool {
 	return true
 }
 
-func longestPalindrome(s string) string {
+func LongestPalindrome(s string) string {
 	for end := len(s); end > 0; end-- {
 		for start := 0; start <= len(s)-end; start++ {
 			if isPalindrome(s, start, start+end-1) {

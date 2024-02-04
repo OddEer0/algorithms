@@ -2,7 +2,7 @@ package leetcodemiddle
 
 import "math"
 
-func reverseInt(x int) int {
+func ReverseInt(x int) int {
 	result := 0
 
 	for {

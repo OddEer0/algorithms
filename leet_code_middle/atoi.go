@@ -2,7 +2,7 @@ package leetcodemiddle
 
 import "math"
 
-func myAtoi(s string) int {
+func MyAtoi(s string) int {
 	sign := 0
 	result := 0
 	for i := 0; i < len(s); i++ {
