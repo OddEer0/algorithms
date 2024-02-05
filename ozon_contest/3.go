@@ -8,7 +8,7 @@ import (
 
 var task3_pattern = regexp.MustCompile(`[a-zA-Z]\d{1,2}[a-zA-Z]{2}`)
 
-func task3() {
+func Task3() {
 	var count int
 	fmt.Scan(&count)
 	result := make([]string, count)

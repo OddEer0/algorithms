@@ -148,7 +148,7 @@ func (t *Tree) print(lines []int) {
 	}
 }
 
-func task10() {
+func Task10() {
 	scanner.Scan()
 	count, _ := strconv.Atoi(scanner.Text())
 	results := make([]*Tree, count)

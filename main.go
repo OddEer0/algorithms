@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	leetcodemiddle "github.com/OddEer0/algorithms/leet_code_middle"
+	ozoncontest "github.com/OddEer0/algorithms/ozon_contest"
 )
 
 func main() {
-	fmt.Println(leetcodemiddle.IntToRoman(1994))
+	ozoncontest.Task7()
 }

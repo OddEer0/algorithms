@@ -112,7 +112,7 @@ func terminal(str string) string {
 	return result
 }
 
-func task6() {
+func Task6() {
 	var count int
 	fmt.Scan(&count)
 	results := make([]string, count)

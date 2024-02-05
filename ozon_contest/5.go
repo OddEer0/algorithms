@@ -42,7 +42,7 @@ func compression(seq []int) []int {
 	return result
 }
 
-func task5() {
+func Task5() {
 	var count int
 	fmt.Scan(&count)
 	results := make([][]int, count)

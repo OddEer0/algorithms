@@ -31,7 +31,7 @@ func getCond(q [][2]string) []int {
 	return result
 }
 
-func task4() {
+func Task4() {
 	var count int
 	fmt.Scan(&count)
 	results := make([][]int, count)

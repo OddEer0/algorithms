@@ -6,7 +6,7 @@ func isCorrectYear(year int) bool {
 	return year%400 == 0 || year%100 != 0 && year%4 == 0
 }
 
-func task2() {
+func Task2() {
 	var dateCount int
 	fmt.Scan(&dateCount)
 	results := make([]bool, dateCount)

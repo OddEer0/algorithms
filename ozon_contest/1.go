@@ -2,7 +2,7 @@ package ozoncontest
 
 import "fmt"
 
-func task1() {
+func Task1() {
 	var fieldCount int
 	fmt.Scanf("%d", &fieldCount)
 	results := make([]bool, fieldCount)
