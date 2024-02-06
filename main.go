@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	ozoncontest.Task7()
+	ozoncontest.Task8()
 }
