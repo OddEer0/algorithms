@@ -1,9 +1,11 @@
 package main
 
 import (
-	ozoncontest "github.com/OddEer0/algorithms/ozon_contest"
+	"fmt"
+
+	leetcodemiddle "github.com/OddEer0/algorithms/leet_code_middle"
 )
 
 func main() {
-	ozoncontest.Task9()
+	fmt.Println(leetcodemiddle.LetterCombinations("23"))
 }
