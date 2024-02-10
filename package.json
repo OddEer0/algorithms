@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "name": "algorithms",
+    "version": "1.0.0",
+    "main": "main.js",
+    "repository": "https://github.com/OddEer0/algorithms.git",
+    "license": "MIT"
+}
