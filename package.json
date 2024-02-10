@@ -1,7 +1,7 @@
 {
     "type": "module",
     "scripts": {
-        "start": "node main.js"
+        "start": "node ./javascript/main.js"
     },
     "name": "algorithms",
     "version": "1.0.0",

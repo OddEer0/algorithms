@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	leetcodemiddle "github.com/OddEer0/algorithms/leet_code_middle"
+	leetcodemiddle "github.com/OddEer0/algorithms/golang/leet_code_middle"
 )
 
 func main() {
