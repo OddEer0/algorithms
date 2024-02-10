@@ -7,5 +7,9 @@
     "version": "1.0.0",
     "main": "main.js",
     "repository": "https://github.com/OddEer0/algorithms.git",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
 }

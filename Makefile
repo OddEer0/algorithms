@@ -5,3 +5,6 @@ go:
 
 js:
 	$(JS_PKG_MANAGER) start
+
+ts:
+	npx ts-node index.ts
