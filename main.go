@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcodemiddle.LetterCombinations("23"))
+	fmt.Println(leetcodemiddle.MyPow(2, -3))
 }
