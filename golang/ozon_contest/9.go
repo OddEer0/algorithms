@@ -1,15 +1,11 @@
 package ozoncontest
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 	"sort"
 	"strconv"
 	"strings"
 )
-
-var scan = bufio.NewScanner(os.Stdin)
 
 func analyzeGameFieldInput() [][]string {
 	scan.Scan()
