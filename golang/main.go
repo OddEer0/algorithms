@@ -1,9 +1,7 @@
 package main
 
-import (
-	ozoncontest "github.com/OddEer0/algorithms/golang/ozon_contest"
-)
+import "github.com/OddEer0/algorithms/golang/tinkoff_frontend_contest_winter2024"
 
 func main() {
-	ozoncontest.Task19()
+	tinkoff_frontend_contest_winter2024.Task4()
 }
