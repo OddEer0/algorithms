@@ -1,7 +1,11 @@
 package main
 
-import "github.com/OddEer0/algorithms/golang/tinkoff_frontend_contest_winter2024"
+import (
+	"fmt"
+
+	leetcodemiddle "github.com/OddEer0/algorithms/golang/leet_code_middle"
+)
 
 func main() {
-	tinkoff_frontend_contest_winter2024.Task4()
+	fmt.Println(leetcodemiddle.JumpGame([]int{3, 2, 1, 0, 4}))
 }
