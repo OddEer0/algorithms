@@ -14,11 +14,7 @@ func PrintList(head *leetcodehard.ListNode) {
 }
 
 func main() {
-	arg := []*leetcodehard.ListNode{
-		&leetcodehard.ListNode{Val: 1, Next: &leetcodehard.ListNode{Val: 4, Next: &leetcodehard.ListNode{Val: 5, Next: nil}}},
-		&leetcodehard.ListNode{Val: 1, Next: &leetcodehard.ListNode{Val: 3, Next: &leetcodehard.ListNode{Val: 4, Next: nil}}},
-		&leetcodehard.ListNode{Val: 2, Next: &leetcodehard.ListNode{Val: 6, Next: nil}},
-	}
-	res := leetcodehard.MergeKSortedList(arg)
+	res := &leetcodehard.ListNode{1, &leetcodehard.ListNode{2, &leetcodehard.ListNode{3, &leetcodehard.ListNode{4, &leetcodehard.ListNode{5, nil}}}}}
+	leetcodehard.ReverseKGroup(res, 3)
 	PrintList(res)
 }
