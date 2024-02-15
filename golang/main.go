@@ -3,11 +3,22 @@ package main
 import (
 	"fmt"
 
-	leetcodemiddle "github.com/OddEer0/algorithms/golang/leet_code_middle"
+	leetcodehard "github.com/OddEer0/algorithms/golang/leet_code_hard"
 )
 
+func PrintList(head *leetcodehard.ListNode) {
+	if head != nil {
+		fmt.Print(head.Val, " ")
+		PrintList(head.Next)
+	}
+}
+
 func main() {
-	arr := []int{2, 2, 1, 2, 1, 1, 1, 0, 0, 2, 1, 0, 2, 1, 2, 2, 1, 1, 1, 1, 1, 0, 2, 0, 2, 0, 2, 2, 1, 0, 2, 1, 0, 2, 1, 2, 0, 0, 0, 0, 2, 1, 1, 2, 0, 1, 2, 2, 0, 0, 2, 2, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 2, 2, 2, 1, 0, 0, 2, 1, 0, 1, 0, 2, 2, 1, 2, 1, 1, 2, 1, 1, 0, 0, 2, 1, 0, 0}
-	leetcodemiddle.SortColors(arr)
-	fmt.Println(arr)
+	arg := []*leetcodehard.ListNode{
+		&leetcodehard.ListNode{Val: 1, Next: &leetcodehard.ListNode{Val: 4, Next: &leetcodehard.ListNode{Val: 5, Next: nil}}},
+		&leetcodehard.ListNode{Val: 1, Next: &leetcodehard.ListNode{Val: 3, Next: &leetcodehard.ListNode{Val: 4, Next: nil}}},
+		&leetcodehard.ListNode{Val: 2, Next: &leetcodehard.ListNode{Val: 6, Next: nil}},
+	}
+	res := leetcodehard.MergeKSortedList(arg)
+	PrintList(res)
 }
