@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	res := []int{5, 4, 7, 5, 3, 2}
-	leetcodemiddle.NextPermutation(res)
-	fmt.Println(res)
+	res := []int{1, 2, 3}
+	per := leetcodemiddle.Permutation(res)
+	fmt.Println(per)
 }
