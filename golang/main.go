@@ -7,5 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcodemiddle.UniquePaths(3, 7))
+	res := []int{5, 4, 7, 5, 3, 2}
+	leetcodemiddle.NextPermutation(res)
+	fmt.Println(res)
 }
