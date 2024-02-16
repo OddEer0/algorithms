@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcodemiddle.GenerateSpiralMatrix(3))
+	fmt.Println(leetcodemiddle.UniquePaths(3, 7))
 }
