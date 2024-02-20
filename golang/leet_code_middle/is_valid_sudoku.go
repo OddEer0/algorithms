@@ -1,6 +1,6 @@
 package leetcodemiddle
 
-func isValidSudoku(board [][]byte) bool {
+func IsValidSudoku(board [][]byte) bool {
 	for i := range board {
 		cache := make(map[byte]bool, 9)
 		cache2 := make(map[byte]bool, 9)
