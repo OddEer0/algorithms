@@ -1,13 +1,5 @@
 package leetcodemiddle
 
-func factorial(n int) int {
-	result := 1
-	for i := 1; i <= n; i++ {
-		result *= i
-	}
-	return result
-}
-
 func Permutation(nums []int) [][]int {
 	permCount := factorial(len(nums))
 	result := make([][]int, permCount)

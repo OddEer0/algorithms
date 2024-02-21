@@ -2,9 +2,7 @@ package leetcodemiddle
 
 func reduceCombinationSum(result *[][]int, candidates, current []int, target, iter, sum int) {
 	if sum == target {
-		n := make([]int, 0, len(current))
-		n = append(n, current...)
-		*result = append(*result, n)
+		*result = append(*result, append([]int{}, current...))
 	}
 
 	if iter >= len(candidates) || sum >= target {

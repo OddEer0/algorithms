@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	res := []int{2, 3, 6, 7}
-	per := leetcodemiddle.CombinationSum(res, 7)
+	res := []int{1, 1, 2}
+	per := leetcodemiddle.Permutation2(res)
 	fmt.Println(per)
 }
