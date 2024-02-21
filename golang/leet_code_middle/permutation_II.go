@@ -27,7 +27,7 @@ func factorial(n int) int {
 func Permutation2(nums []int) [][]int {
 	permCount := factorial(len(nums))
 	result := make([][]int, 0, permCount)
-	temp := make(map[string]bool)
+	temp := make(map[string]bool, permCount)
 	last := 1
 
 	for i := 0; i < permCount; i++ {
