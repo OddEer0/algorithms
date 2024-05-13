@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/OddEer0/algorithms/golang/my"
 )
 
@@ -14,6 +12,6 @@ func main() {
 	// }
 	// fmt.Println("Размер:", len(res))
 	// fmt.Println("Запрос выполнен за", time.Now().Sub(t1).Seconds(), "секунд")
-	res := my.MaxSumEvery2nd([]int{8, 11, 2, 2, 11})
-	fmt.Println("res:", res)
+	my.BobrWorkerPool()
+	// fmt.Println("res:", res)
 }
